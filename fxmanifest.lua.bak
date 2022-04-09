@@ -13,12 +13,8 @@ shared_scripts {
 server_script 'server/main.lua'
 client_script 'client/main.lua'
 
-files {
-'weaponsnspistol.meta',
-'weapons_doubleaction.meta'
-}
+files {'weaponsnspistol.meta'}
 
 data_file 'WEAPONINFO_FILE_PATCH' 'weaponsnspistol.meta'
-data_file 'WEAPONINFO_FILE_PATCH' 'weapons_doubleaction.meta'
 
 lua54 'yes'
